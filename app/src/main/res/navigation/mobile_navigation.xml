@@ -9,8 +9,7 @@
             android:id="@+id/nav_home"
             android:name="com.example.lorcollectorsapp.ui.home.HomeFragment"
             android:label="@string/menu_home"
-            tools:layout="@layout/fragment_home">
-    </fragment>
+            tools:layout="@layout/fragment_home"/>
 
     <fragment
             android:id="@+id/nav_card_gallery"
@@ -20,8 +19,9 @@
 
     <fragment
             android:id="@+id/nav_add_cards"
-            android:name="com.example.lorcollectorsapp.ui.slideshow.SlideshowFragment"
+            android:name="com.example.lorcollectorsapp.ui.addCards.AddCards"
             android:label="@string/menu_add_cards"
-            tools:layout="@layout/fragment_slideshow">
-    </fragment>
+            tools:layout="@layout/fragment_add_cards"/>
+    <fragment android:id="@+id/settingsFragment" android:name="com.example.lorcollectorsapp.SettingsFragment"
+              android:label="SettingsFragment"/>
 </navigation>
