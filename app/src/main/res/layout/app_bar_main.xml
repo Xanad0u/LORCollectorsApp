@@ -5,7 +5,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".LORCollectorAppActivity">
+        tools:context=".LORCollectorAppActivity" android:background="@color/dark_brown">
 
     <com.google.android.material.appbar.AppBarLayout
             android:layout_height="wrap_content"
@@ -16,7 +16,7 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="@color/teal_700"
+                android:background="@color/light_brown"
                 app:popupTheme="@style/Theme.LORCollectorsApp.PopupOverlay"/>
 
     </com.google.android.material.appbar.AppBarLayout>
