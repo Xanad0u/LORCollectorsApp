@@ -19,4 +19,8 @@
     </style>
     <style name="Theme.LORCollectorsApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="Theme.LORCollectorsApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="Button.Red" parent="ThemeOverlay.AppCompat">
+        <item name="android:buttonTint">@color/red</item>
+    </style>
 </resources>
